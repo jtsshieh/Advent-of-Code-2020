@@ -1,6 +1,6 @@
-const { splitLines, readInput } = require('../common/utils');
+import { splitLines, readInput } from '../common/utils.js';
 
-const entries = splitLines(readInput());
+const entries = splitLines(readInput(import.meta.url));
 
 let valid = 0;
 

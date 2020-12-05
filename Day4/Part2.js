@@ -1,6 +1,6 @@
-const { readInput } = require('../common/utils');
+import { readInput } from '../common/utils.js';
 
-const passports = readInput()
+const passports = readInput(import.meta.url)
 	.split('\r\n\r\n')
 	.map((passport) => passport.replace(/\r\n/g, ' '));
 

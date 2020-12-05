@@ -1,6 +1,6 @@
-const { readInput, splitLines } = require('../common/utils');
+import { readInput, splitLines } from '../common/utils.js';
 
-const seats = splitLines(readInput());
+const seats = splitLines(readInput(import.meta.url));
 const takenSeats = [];
 const allSeats = [];
 

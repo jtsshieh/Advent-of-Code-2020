@@ -1,6 +1,8 @@
-const { splitLines, readInput } = require('../common/utils');
+import { splitLines, readInput } from '../common/utils.js';
 
-const entries = splitLines(readInput()).map((row) => row.split(''));
+const entries = splitLines(readInput(import.meta.url)).map((row) =>
+	row.split('')
+);
 
 const calculateTrees = (right, down) => {
 	let columnIndex = 0;

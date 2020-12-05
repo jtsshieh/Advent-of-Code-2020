@@ -1,9 +1,10 @@
-module.exports.readInput = () => {
-	const fs = require('fs');
+import fs from 'fs';
+export function readInput(url) {
+	return fs.readFileSync(new URL('./input.txt', url), {
+		encoding: 'utf-8',
+	});
+}
 
-	return fs.readFileSync('./input.txt', { encoding: 'utf-8' });
-};
-
-module.exports.splitLines = (input) => {
+export function splitLines(input) {
 	return input.split('\r\n');
-};
+}
