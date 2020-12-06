@@ -11,5 +11,5 @@ export const main = () => {
 };
 
 export default () => {
-	console.log('Entry:', main());
+	console.log('Product of 2 Expenses that sum to 2020:', main());
 };

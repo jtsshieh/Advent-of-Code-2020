@@ -13,5 +13,5 @@ export const main = () => {
 };
 
 export default () => {
-	console.log('Largest Expense:', main());
+	console.log('Product of 3 Expenses that sum to 2020:', main());
 };

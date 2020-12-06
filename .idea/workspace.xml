@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5948ba1-7c73-42e5-9ac4-5dac329a2e8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Day1/Part1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day1/Part2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day1/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2/Part1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2/Part2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3/Part1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3/Part2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day4/Part1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day4/Part2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day4/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day5/Part1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day5/Part2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day5/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="d5948ba1-7c73-42e5-9ac4-5dac329a2e8a" name="Default Changelist" comment="Switch to TS and add tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/Part1.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day1/Part1.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/Part2.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day1/Part2.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +20,49 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
     <property name="ts.external.directory.path" value="D:\Projects\Misc\Advent Of Code 2020\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest">
+      <config-file value="$PROJECT_DIR$/jest.config.js" />
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jest.All Tests" />
+      <item itemvalue="npm.start" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -51,11 +72,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607224548195</updated>
-      <workItem from="1607224550848" duration="47000" />
+      <workItem from="1607224550848" duration="302000" />
     </task>
+    <task id="LOCAL-00001" summary="Switch to TS and add tests">
+      <created>1607224689802</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607224689802</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Switch to TS and add tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Switch to TS and add tests" />
   </component>
 </project>
