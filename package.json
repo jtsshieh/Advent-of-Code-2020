@@ -3,9 +3,9 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
-	"type": "module",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"start": "ts-node src/index",
+		"test": "jest"
 	},
 	"repository": {
 		"type": "git",
@@ -16,5 +16,15 @@
 	"bugs": {
 		"url": "https://github.com/jtsshieh/Advent-of-Code-2020/issues"
 	},
-	"homepage": "https://github.com/jtsshieh/Advent-of-Code-2020#readme"
+	"homepage": "https://github.com/jtsshieh/Advent-of-Code-2020#readme",
+	"dependencies": {
+		"ts-node": "^9.1.0",
+		"typescript": "^4.1.2"
+	},
+	"devDependencies": {
+		"@types/jest": "^26.0.16",
+		"@types/node": "^14.14.10",
+		"jest": "^26.6.3",
+		"ts-jest": "^26.4.4"
+	}
 }
