@@ -5,10 +5,8 @@ let result;
 
 for (const num1 of nums) {
 	for (const num2 of nums) {
-		for (const num3 of nums) {
-			if (num1 + num2 + num3 == 2020) {
-				result = num1 * num2 * num3;
-			}
+		if (nums.includes(2020 - (num1 + num2))) {
+			result = num1 * num2 * 2020 - (num1 + num2);
 		}
 	}
 }
