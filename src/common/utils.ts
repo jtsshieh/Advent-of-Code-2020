@@ -8,5 +8,5 @@ export const readInput = (base: string) => {
 };
 
 export const splitLines = (input: string) => {
-	return input.split('\r\n');
+	return input.split('\n');
 };

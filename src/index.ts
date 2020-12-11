@@ -12,7 +12,7 @@ rl.question('Which day would you like to run? ', (day) => {
 			.then((mod) => {
 				mod.default();
 			})
-			.catch(() => console.log('This is not a valid selection.'));
+			.catch((err) => console.log('An error occurred:', err));
 
 		rl.close();
 	});
